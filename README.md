@@ -1,6 +1,6 @@
 # election-2020-discord-bot
 
-discord bot that puts auto updated 2020 election results in chat, taken from projections by AP news
+discord bot that puts 2020 election results in chat, updated every 5 minutes. Data taken from projections by AP news
 
 ![Example of bot message](https://i.imgur.com/oRBpeIT.png)
 
