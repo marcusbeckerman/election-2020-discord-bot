@@ -80,7 +80,8 @@ def createMessage():
         'DC':3,
         'AK':3,
         'HI':4,
-        'TN':11
+        'TN':11,
+        'MI':6
     }
 
     winners = getWinners()
@@ -91,7 +92,7 @@ def createMessage():
         if state == 'US':
             message += f'**{state}: {winners[state]}**'
         else:
-            message += f'\n{state}: {winners[state]}'
+            message += f'\n{state}: {winners[state]} ({electoral[state]})'
             if winners[state] == 'Trump':
                 trump += electoral[state]
             elif winners[state] == 'Biden':
