@@ -81,7 +81,7 @@ def createMessage():
         'AK':3,
         'HI':4,
         'TN':11,
-        'MI':6
+        'MI':16
     }
 
     winners = getWinners()
