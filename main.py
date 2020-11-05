@@ -134,7 +134,10 @@ async def results(ctx):
 @commands.has_permissions(administrator=True)
 async def start(ctx):
     while True:
-        await editMessage()
+        try:
+            await editMessage()
+        except Exception as e:
+            print(e)
         await asyncio.sleep(300)
 
 
